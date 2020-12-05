@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+	
+	<script>var et_site_url='https://murah.hostingku.id';var et_post_id='1309';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script>
+	
+	<title>Install WordPress dengan LAMP Stack - Hostingku</title>
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<link rel="canonical" href="https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Install WordPress dengan LAMP Stack - Hostingku">
+	<meta property="og:description" content="Seperti yang kita tahu, WordPress nyaris menguasai pasar CMS di dunia dengan Control Panel ataupun non- Control Panel pada server. Tidak hanya dari dashboardnya yang gampang dimengerti oleh pendatang baru, fitur plugins serta themes yang banyak dan mudah disesuaikan dengan kebutuhan. WordPress dapat digunakan untuk E- commerce, Retail, Magazine, Portfolio atau custom sesuai dengan kebutuhan. [&hellip;]">
+	<meta property="og:url" content="https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/">
+	<meta property="og:site_name" content="Hostingku">
+	<meta property="article:published_time" content="2020-03-15T20:35:00+00:00">
+	<meta property="article:modified_time" content="2020-03-28T07:39:11+00:00">
+	<meta property="og:image" content="https://murah.hostingku.id/contents/img/2020/03/lamp-wordpress-installation.jpg">
+	<meta property="og:image:width" content="1280">
+	<meta property="og:image:height" content="720">
+	<meta name="twitter:card" content="summary_large_image">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://murah.hostingku.id/#organization","name":"Hostingku","url":"https://murah.hostingku.id/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://murah.hostingku.id/#logo","inLanguage":"en-US","url":"https://murah.hostingku.id/contents/uploads/2020/06/litespeed-logo-icon_outline.png","width":300,"height":300,"caption":"Hostingku"},"image":{"@id":"https://murah.hostingku.id/#logo"}},{"@type":"WebSite","@id":"https://murah.hostingku.id/#website","url":"https://murah.hostingku.id/","name":"Hostingku","description":"Premium Web Hosting Indonesia Murah","publisher":{"@id":"https://murah.hostingku.id/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://murah.hostingku.id/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/#primaryimage","inLanguage":"en-US","url":"https://murah.hostingku.id/contents/uploads/2020/03/lamp-wordpress-installation.jpg","width":1280,"height":720},{"@type":"WebPage","@id":"https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/#webpage","url":"https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/","name":"Install WordPress dengan LAMP Stack - Hostingku","isPartOf":{"@id":"https://murah.hostingku.id/#website"},"primaryImageOfPage":{"@id":"https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/#primaryimage"},"datePublished":"2020-03-15T20:35:00+00:00","dateModified":"2020-03-28T07:39:11+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/"]}]},{"@type":"Article","@id":"https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/#article","isPartOf":{"@id":"https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/#webpage"},"author":{"@id":"https://murah.hostingku.id/#/schema/person/25cefdb5fabe61abcc6af1fc281ebdac"},"headline":"Install WordPress dengan LAMP Stack","datePublished":"2020-03-15T20:35:00+00:00","dateModified":"2020-03-28T07:39:11+00:00","mainEntityOfPage":{"@id":"https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/#webpage"},"commentCount":0,"publisher":{"@id":"https://murah.hostingku.id/#organization"},"image":{"@id":"https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/#primaryimage"},"articleSection":"Hosting","inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/#respond"]}]},{"@type":"Person","@id":"https://murah.hostingku.id/#/schema/person/25cefdb5fabe61abcc6af1fc281ebdac","name":"Sadewa","sameAs":["sadewa dee"]}]}</script>
+	
+
+
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+
+<link rel="alternate" type="application/rss+xml" title="Hostingku &raquo; Feed" href="https://murah.hostingku.id/feed/">
+<link rel="alternate" type="application/rss+xml" title="Hostingku &raquo; Comments Feed" href="https://murah.hostingku.id/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Hostingku &raquo; Install WordPress dengan LAMP Stack Comments Feed" href="https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/feed/">
+<link rel="stylesheet" id="wp-block-library-css" href="https://murah.hostingku.id/inc/css/dist/block-library/style.min.css?ver=5.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="divi-style-css" href="https://murah.hostingku.id/contents/ui/core/style.css?ver=4.6.6" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://murah.hostingku.id/inc/css/dashicons.min.css?ver=5.5.3" type="text/css" media="all">
+<script type="text/javascript" src="https://murah.hostingku.id/inc/js/jquery/jquery.js?ver=1.12.4-wp" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/core/admin/js/es6-promise.auto.min.js?ver=5.5.3" id="es6-promise-js"></script>
+<script type="text/javascript" id="et-core-api-spam-recaptcha-js-extra">
+/* <![CDATA[ */
+var et_core_api_spam_recaptcha = {"site_key":"","page_action":{"action":"cara_install_wordpress_dengan_lamp_stack"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/core/admin/js/recaptcha.js?ver=5.5.3" id="et-core-api-spam-recaptcha-js"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-144354676-5" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTNiMT', true);
+gtag('config', 'UA-144354676-5', {"anonymize_ip":true,"optimize_id":"GTM-KPMWBGF"} );
+</script>
+<link rel="alternate" type="application/json" href="https://murah.hostingku.id/wp-json/wp/v2/posts/1309">
+
+
+<link rel="alternate" type="application/json+oembed" href="https://murah.hostingku.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmurah.hostingku.id%2Fcara-install-wordpress-dengan-lamp-stack%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://murah.hostingku.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmurah.hostingku.id%2Fcara-install-wordpress-dengan-lamp-stack%2F&amp;format=xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<script>
+( function( w, d, s, l, i ) {
+	w[l] = w[l] || [];
+	w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+	var f = d.getElementsByTagName( s )[0],
+		j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+	j.async = true;
+	j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+	f.parentNode.insertBefore( j, f );
+} )( window, document, 'script', 'dataLayer', 'GTM-5PZNKC3' );
+</script>
+
+		<link rel="icon" href="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-32x32.png" sizes="32x32">
+<link rel="icon" href="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-180x180.png">
+<meta name="msapplication-TileImage" content="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-270x270.png">
+<link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="https://murah.hostingku.id/contents/et-cache/global/et-divi-customizer-global-16065817597911.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)"><link rel="stylesheet" id="et-core-unified-tb-2171-tb-2199-1309-cached-inline-styles" href="https://murah.hostingku.id/contents/et-cache/1309/et-core-unified-tb-2171-tb-2199-1309-16066250641092.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)"></head>
+<body data-rsssl="1" class="post-template-default single single-post postid-1309 single-format-standard et-tb-has-template et-tb-has-body et-tb-has-footer et-tb-footer-disabled et_pb_button_helper_class et_transparent_nav et_fixed_nav et_show_nav et_hide_primary_logo et_hide_fixed_logo et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_cover_background et_pb_gutter et_pb_gutters3 et_divi_theme et-db et_minified_js et_minified_css">
+			
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PZNKC3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		
+		<div id="page-container">
+<div id="et-boc" class="et-boc">
+			
+		
+
+	<header id="main-header" data-height-onload="66">
+		<div class="container clearfix et_menu_container">
+					<div class="logo_container">
+				<span class="logo_helper"></span>
+				<a href="https://murah.hostingku.id/">
+					<img src="https://murah.hostingku.id/contents/img/2020/06/litespeed-logo-icon_outline.png" alt="Hostingku" id="logo" data-height-percentage="54">
+				</a>
+			</div>
+					<div id="et-top-navigation" data-height="66" data-fixed-height="105">
+									<nav id="top-menu-nav">
+					<ul id="top-menu" class="nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-973"><a href="https://murah.hostingku.id/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2170"><a href="#">WordPress</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2167"><a href="https://murah.hostingku.id/category/wordpress/plugin/">Plugins</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2168"><a href="https://murah.hostingku.id/category/wordpress/themes/">Themes</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-976"><a href="https://murah.hostingku.id/category/tie-tech/">Security</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-977"><a href="https://murah.hostingku.id/category/hosting/">Hosting</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2169"><a href="https://murah.hostingku.id/category/wordpress/tips-trik/">Tips &amp; Trik</a></li>
+</ul>					</nav>
+				
+				
+				
+				
+				<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>			</div> 
+		</div> 
+		<div class="et_search_outer">
+			<div class="container et_search_form_container">
+				<form role="search" method="get" class="et-search-form" action="https://murah.hostingku.id/">
+				<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:">				</form>
+				<span class="et_close_search_field"></span>
+			</div>
+		</div>
+	</header> 
+<div id="et-main-area">
+	
+    <div id="main-content">
+    <div class="et-l et-l--body">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0_tb_body et_animated et_pb_with_background et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0_tb_body">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_post_title et_pb_post_title_0_tb_body et_pb_bg_layout_light  et_pb_text_align_left">
+				
+				
+				<div class="et_pb_title_featured_container"><span class="et_pb_image_wrap"><img loading="lazy" width="1280" height="720" src="https://murah.hostingku.id/contents/img/2020/03/lamp-wordpress-installation.jpg" alt="" title="lamp wordpress installation" srcset="https://murah.hostingku.id/contents/img/2020/03/lamp-wordpress-installation.jpg 1280w,https://murah.hostingku.id/contents/img/2020/03/lamp-wordpress-installation-300x169.jpg 300w,https://murah.hostingku.id/contents/img/2020/03/lamp-wordpress-installation-1024x576.jpg 1024w,https://murah.hostingku.id/contents/img/2020/03/lamp-wordpress-installation-768x432.jpg 768w,https://murah.hostingku.id/contents/img/2020/03/lamp-wordpress-installation-390x220.jpg 390w" sizes="(max-width: 1280px) 100vw, 1280px" class="wp-image-1328"></span></div>
+				<div class="et_pb_title_container">
+					
+				</div>
+				
+			</div>
+			</div> 
+				
+				
+			</div> 
+				
+				
+			</div> <div class="et_pb_section et_pb_section_1_tb_body et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_1_tb_body">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_post_title et_pb_post_title_1_tb_body et_pb_bg_layout_light  et_pb_text_align_left">
+				
+				
+				
+				<div class="et_pb_title_container">
+					<h1 class="entry-title">Install WordPress dengan LAMP Stack</h1>
+				</div>
+				
+			</div><div class="et_pb_module et_pb_post_content et_pb_post_content_0_tb_body">
+				
+				
+				<p>Seperti yang kita tahu, WordPress nyaris menguasai pasar CMS di dunia dengan Control Panel ataupun non- Control Panel pada server. Tidak hanya dari dashboardnya yang gampang dimengerti oleh pendatang baru, fitur plugins serta themes yang banyak dan mudah disesuaikan dengan kebutuhan. WordPress dapat digunakan untuk E- commerce, Retail, Magazine, Portfolio atau custom sesuai dengan kebutuhan.</p>
+<h2>Persiapan</h2>
+<p>Pastikan sudah memiliki akses root pada vps, agar dapat mengeksekusi perintah.</p>
+<ul>
+<li>Pastikan sudah terinstall<strong> LAMP</strong> (Linux, Apache, MySQL dan PHP).</li>
+<li>Domain sudah dipointing ke server.</li>
+</ul>
+<h2>Melakukan Instalasi WordPress</h2>
+<h3><b>Step 1 &ndash; Create Database &amp; Grant Permissions</b></h3>
+<p>Login ke server sebagai root lalu masuk ke MySQL Database dengan menggunakan user <em>root</em>.</p>
+<pre>$ mysql -uroot -p</pre>
+<p>Buat database dengan perinta <em>Create Database</em>:</p>
+<pre>MariaDB&gt;  CREATE DATABASE wordpresslamp CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;</pre>
+<p>Buat user baru dengan perintah <em>Create User Database</em> dan berikan izin untuk mengakses database dengan <em>Grant Permissions</em>.</p>
+<pre>MariaDB&gt; GRANT ALL ON wordpresslamp.* TO 'user'@'localhost' IDENTIFIED BY 'webwp123';</pre>
+<p>Gunakan perintah <em>Flush Privileges</em> untuk reload perubahan dan keluar dari MySQL dengan perintah <em>EXIT</em>.</p>
+<pre>MariaDB&gt; FLUSH PRIVILEGES;
+
+MariaDB&gt; EXIT;</pre>
+<h3><b>Step 2 &ndash; Setup WordPress</b></h3>
+<p>Masuk kedalam <em>directory /tmp</em> dengan menggunakan perintah <em>cd</em> untuk dijadikan sebagai tempat mendownload file WordPress sementara.</p>
+<pre>$ cd /tmp</pre>
+<p>Download versi terbaru WordPress menggunakan perintah <em>wget</em>.</p>
+<pre>$ wget https://wordpress.org/latest.tar.gz</pre>
+<p>Extract file yang sudah didownload menggunakan perintah tar -xzf dimana artinya :</p>
+<ul>
+<li>x : digunaka untuk memberi tahu agar tar mengekstrak file.</li>
+<li>v : &ldquo;v&rdquo; adalah singkatan untuk &ldquo;verbose.&rdquo; Opsi ini akan mencantumkan semua file satu per satu di arsip.</li>
+<li>z : Opsi z sangat penting dan memberi tahu perintah tar untuk membuka kompresi file (gzip).</li>
+<li>f : Opsi ini memberi tahu tar bahwa Anda akan memberinya nama file untuk dikerjakan.</li>
+</ul>
+<pre>$ tar -xvzf latest.tar.gz</pre>
+<p>Buat file konfigurasi WordPress dengan me-rename wp-config-sample.php menjadi wp-config.php.</p>
+<pre>$ cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php</pre>
+<p>Buat directory website yang ingin di install WordPressnya.</p>
+<pre>$ cd /var/www/html/
+$ mkdir lamp.ngebutsite.com</pre>
+<p>Ubah kepemilikan directory domain tersebut dengena menggunakan <em>chown</em>.</p>
+<pre>$ chown -R apache:apache /var/www/html/lamp.ngebutsite.com/</pre>
+<p>Copy semua file nya ke direktori website menggunakan perintah cp.</p>
+<pre>$ sudo cp -a /tmp/wordpress/. /var/www/html/lamp.ngebutsite.com/</pre>
+<p>Jangan lupa untuk melakukan Generate secret salt key WordPress.</p>
+<pre>$ curl -s https://api.wordpress.org/secret-key/1.1/salt/</pre>
+<p>Key yang sudah digenerate akan tampak seperti dibawah ini.</p>
+<pre>define('AUTH_KEY',         '&gt;i{2HZWW%#@[ejU_:@IQ,j*]B!~Hf`(gw7Mfk_+%@HoV8oo@=]+8X{8*dh&gt;VTFB]');
+
+define('SECURE_AUTH_KEY',  '_uVe4X.-%c)ob^cWDxItqwa,J*,z]N4{N5!WOOMXl&gt;JUqn|!JyOw7?&amp;?2SQZM|3+');
+
+define('LOGGED_IN_KEY',    'P~kb+.lQS./gA-L.E8+a&gt;YZKN{zQ|*$8CKzwZ;bB~&gt;gYuP5l Aa;OWrZ&lt;N)iX&lt;nW');
+
+define('NONCE_KEY',        '5Pl4 %AdlqowfwE;|m!z?S~ 6^8L7+vY]M=hb3a7^C&gt;?2C`fz+u|H[F!Jf!b/uAE');
+
+define('AUTH_SALT',        'IiI&lt;&gt;I&lt;Lu)K6FaaB@OVd+a:Ao@`tbR1Hhb}a,M+4A0BG}hH$I.Qyd{x~BP4?ww( ');
+
+define('SECURE_AUTH_SALT', 'c%G+Z|_{9i6|x4:6#up}S}SCIW;I2:c^-dtM&lt;&lt;DwZ`kE4)X=!XSRIid&amp;`3cj4DCy');
+
+define('LOGGED_IN_SALT',   'W&gt;XGF~*uk[mA&lt;VgO6+{FI,W,oCzp(K`r3-#3Q#0I*A1gHUoM-D|&gt;7P4&gt;]R+..~^K');
+
+define('NONCE_SALT',       '8NRqc!14jFBWw`:q}?NwM0h_r}@`7z^HM!A%j_VvlhcwOJ-J`#YIaBV6@9mO%| I');</pre>
+<p>Buka file wp-config.php menggunakan nano atau cat, copy dan pastekan key yang sudah digenerate sebelumnya. lalu konfigurasikan database yang sebelumnya sudah dibuat.</p>
+<pre>/** The name of the database for WordPress */
+
+define( 'DB_NAME', 'wordpresslamp' );
+
+/** MySQL database username */
+
+define( 'DB_USER', 'user' );
+
+/** MySQL database password */
+
+define( 'DB_PASSWORD', 'webwp123' );
+
+/** MySQL hostname */
+
+define( 'DB_HOST', 'localhost' );</pre>
+<p>Save lalu exit.</p>
+<h3><b>Step 3 &ndash; Install dan setup SSL</b></h3>
+<p>Agar website lebih aman, mari kita gunakan <b>SSL</b> (Secure Site Layer). SSL ini menggunakan LetsEncrypt karena gratis dan kompatible dengan sebagian besar web browser seperti chrome, firefox, opera, safari dan IE.</p>
+<p>Pertama Install git untuk keperluan clone.</p>
+<pre>$ yum install git -y</pre>
+<p>Masuk ke directory /opt.</p>
+<pre>$ cd /opt</pre>
+<p>Lalu jalankan perintah git clone.</p>
+<pre>$ git clone https://github.com/letsencrypt/letsencrypt</pre>
+<p>Stop terlebih dahulu services Apache agar auto-installer dari LetsEncrypt bisa melakukan binding pada port 80.</p>
+<pre>$ service httpd stop</pre>
+<p>Berikan izin untuk melakukan eksekusi dengan perintah chmod +x, maka selanjutnya jalankan auto-installer LetsEncrypt.</p>
+<pre>$ chmod +x ./letsencrypt/letsencrypt-aut
+$ ./letsencrypt/letsencrypt-auto certonly --standalone</pre>
+<p>Langkah selanjutnya adalah memasukan email dan nama domain dari website.</p>
+<pre>Enter email address (used for urgent renewal and security notices) (Enter 'c' to
+
+cancel): info@ngebutsite.com
+
+Please enter in your domain name(s) (comma and/or space separated)  (Enter 'c'
+
+to cancel): lamp.ngebutsite.com</pre>
+<p><img loading="lazy" class="alignnone wp-image-1320 size-full" title="SSL Lets Encrypt" src="https://murah.hostingku.id/contents/img/2020/03/Pasted.jpg" alt="SSL Lets Encrypt" width="589" height="409" srcset="https://murah.hostingku.id/contents/img/2020/03/Pasted.jpg 589w,https://murah.hostingku.id/contents/img/2020/03/Pasted-300x208.jpg 300w" sizes="(max-width: 589px) 100vw, 589px"></p>
+<p>Certificate dan Chain-nya akan disimpan pada:</p>
+<pre>/etc/letsencrypt/live/lamp.ngebutsite.com/fullchain.pem</pre>
+<p>Private Key disimpan pada:</p>
+<pre>/etc/letsencrypt/live/lamp.ngebutsite.com/privkey.pem</pre>
+<h3><b>Step 4 &ndash; Konfigurasi Apache</b></h3>
+<p>Tambahkan konfigurasi pada virtual host dan SSL di Apache Virtual Host Conf:</p>
+<pre>$ nano /etc/httpd/conf.d/example.com.conf
+
+&lt;VirtualHost *:80&gt;
+
+  ServerName lamp.ngebutsite.com
+
+  ServerAlias www.lamp.ngebutsite.com
+
+  Redirect permanent / https://lamp.ngebutsite.com/
+
+&lt;/VirtualHost&gt;
+
+&lt;VirtualHost *:443&gt;
+
+  ServerName lamp.ngebutsite.com
+
+  ServerAlias www.lamp.ngebutsite.com
+
+  &lt;If "%{HTTP_HOST} == 'www.lamp.ngebutsite.com'"&gt;
+
+    Redirect permanent / https://lamp.ngebutsite.com/
+
+  &lt;/If&gt;
+
+  DirectoryIndex index.html index.php
+
+  DocumentRoot /var/www/html/lamp.ngebutsite.com
+
+  ErrorLog /var/log/httpd/lamp.ngebutsite.com-error.log
+
+  CustomLog /var/log/httpd/lamp.ngebutsite.com-access.log combined
+
+  SSLEngine On
+
+  SSLCertificateFile /etc/letsencrypt/live/lamp.ngebutsite.com/fullchain.pem
+
+  SSLCertificateKeyFile /etc/letsencrypt/live/lamp.ngebutsite.com/privkey.pem
+
+  &lt;Directory /var/www/html/lamp.ngebutsite.com&gt;
+
+      Options FollowSymLinks
+
+      AllowOverride All
+
+      Require all granted
+
+  &lt;/Directory&gt;
+
+&lt;/VirtualHost&gt;</pre>
+<p>Save dan exit.</p>
+<div style="clear:both; margin-top:0em; margin-bottom:1em;"><a href="https://murah.hostingku.id/menghitung-traffic-pada-hosting/" target="_blank" class="ua4dbb2c7ca97602d7950ffc49cf084d9"><style> .ua4dbb2c7ca97602d7950ffc49cf084d9 { padding:0px; margin: 0; padding-top:1em!important; padding-bottom:1em!important; width:100%; display: block; font-weight:bold; background-color:#eaeaea; border:0!important; border-left:4px solid #34495E!important; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); text-decoration:none; } .ua4dbb2c7ca97602d7950ffc49cf084d9:active, .ua4dbb2c7ca97602d7950ffc49cf084d9:hover { opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; text-decoration:none; } .ua4dbb2c7ca97602d7950ffc49cf084d9 { transition: background-color 250ms; webkit-transition: background-color 250ms; opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; } .ua4dbb2c7ca97602d7950ffc49cf084d9 .ctaText { font-weight:bold; color:inherit; text-decoration:none; font-size: 16px; } .ua4dbb2c7ca97602d7950ffc49cf084d9 .postTitle { color:#000000; text-decoration: underline!important; font-size: 16px; } .ua4dbb2c7ca97602d7950ffc49cf084d9:hover .postTitle { text-decoration: underline!important; } </style><div style="padding-left:1em; padding-right:1em;"><span class="ctaText">Lanjutkan Membaca</span>&nbsp; <span class="postTitle">Menghitung Trafik Pada Hosting</span></div></a></div><p>Konfigurasi diatas akan memberitahukan Apache untuk melakukan redirect dari http ke https dan dari www ke non-www pada domain lamp.ngebutsite.com tersebut.</p>
+<p>Kemudian jalankan kembali service Apache nya.</p>
+<pre>$ systemctl start httpd</pre>
+<h3><b>Step 5 &ndash; Install Module PHP</b></h3>
+<p>Ada beberapa module extension yang diperluka oleh WordPress agar berjalan dengan baik.</p>
+<pre>$ yum install php-fpm php-mysql php-mysqlnd php-pdo php-gd php-ldap php-odbc php-pear php-xml php-xmlrpc php-mbstring php-soap curl curl-devel -y</pre>
+<p>Restart Apache untuk mengenali perubahan.</p>
+<pre>$ systemctl restart httpd</pre>
+<h3><b>Step 6 &ndash; Setup Installation</b></h3>
+<p>Selah sukses melakukan instalasi seperti diatas, selanjutnya silahkan akses domain, maka selanjutnya akan otomatis di bawa kehalaman seperti dibawah, silahkan masukan data-data pada form tersebut sesuai kebutuhan.</p>
+<p><img loading="lazy" class="alignnone wp-image-1324 size-full" src="https://murah.hostingku.id/contents/img/2020/03/dbinfo-wordpress-installation.jpg" alt="DB setting wordpress lamp stack" width="550" height="286" srcset="https://murah.hostingku.id/contents/img/2020/03/dbinfo-wordpress-installation.jpg 550w,https://murah.hostingku.id/contents/img/2020/03/dbinfo-wordpress-installation-300x156.jpg 300w" sizes="(max-width: 550px) 100vw, 550px"></p>
+<p>&nbsp;</p>
+<p>Jika sudah klik Install WordPress dan cek pada homepage dengan cara mengaksesnya.</p>
+<p><img loading="lazy" class="alignnone wp-image-1323" src="https://murah.hostingku.id/contents/img/2020/03/Pasted-into-Cara-Install-WordPress-dengan-LAMP-Stack.png" alt="Homepage WordPress" width="703" height="340" srcset="https://murah.hostingku.id/contents/img/2020/03/Pasted-into-Cara-Install-WordPress-dengan-LAMP-Stack.png 1919w,https://murah.hostingku.id/contents/img/2020/03/Pasted-into-Cara-Install-WordPress-dengan-LAMP-Stack-300x145.png 300w,https://murah.hostingku.id/contents/img/2020/03/Pasted-into-Cara-Install-WordPress-dengan-LAMP-Stack-1024x496.png 1024w,https://murah.hostingku.id/contents/img/2020/03/Pasted-into-Cara-Install-WordPress-dengan-LAMP-Stack-768x372.png 768w,https://murah.hostingku.id/contents/img/2020/03/Pasted-into-Cara-Install-WordPress-dengan-LAMP-Stack-1536x744.png 1536w" sizes="(max-width: 703px) 100vw, 703px"></p>
+<p>&nbsp;</p>
+<h2><strong>Akhir Kata</strong></h2>
+<p>Tampilan diatas menandakan bahwa kamu sudah berhasil melakukan Instalasi WordPress dengan LAMP Stack.</p>
+<p>Demikian artikel cara install WordPress dengan LAMP, jangan sungkan untuk meninggalkan ide-ide topik yang ingin kamu baca di blog Saya. Semoga artikel ini membantu!</p>
+
+			</div> 
+			</div> 
+				
+				
+			</div> 
+				
+				
+			</div> <div class="et_pb_section et_pb_section_2_tb_body et_animated et_pb_with_background et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_2_tb_body">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_body  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h3>Get In Touch</h3></div>
+			</div> <div class="et_pb_module et_pb_comments_0_tb_body et_pb_comments_module et_pb_bg_layout_light">
+				
+				
+				
+
+<section id="comment-wrap">
+	<h1 id="comments" class="page_title">0 Comments</h1>
+		   <div id="comment-section" class="nocomments">
+		  			 
+
+		  	   </div>
+					<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"><span>Submit a Comment</span> <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://murah.hostingku.id/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><button name="submit" type="submit" id="et_pb_submit" class="submit">Submit Comment</button> <input type="hidden" name="comment_post_ID" value="1309" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p></form>	</div>
+		</section>
+
+			</div>
+			</div> 
+				
+				
+			</div> 
+				
+				
+			</div> 		</div>
+	</div>
+	    </div>
+    
+	    </div> 
+
+			
+		</div>
+		</div> 
+
+				<script type="text/javascript">
+				var et_animation_data = [{"class":"et_pb_section_0_tb_body","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"2%","starting_opacity":"100%","speed_curve":"ease-in-out"},{"class":"et_pb_section_2_tb_body","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"5%","starting_opacity":"100%","speed_curve":"ease-in-out"}];
+				</script>
+	<script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
+var et_pb_custom = {"ajaxurl":"https:\/\/murah.hostingku.id\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/murah.hostingku.id\/contents\/ui\/core\/images","builder_images_uri":"https:\/\/murah.hostingku.id\/contents\/ui\/core\/includes\/builder\/images","et_frontend_nonce":"acbe0896a2","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"2de6d97a52","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"1309","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_box_shadow_elements = [];
+var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
+var et_pb_sticky_elements = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/js/custom.unified.js?ver=4.6.6" id="divi-custom-script-js"></script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/core/admin/js/common.js?ver=4.6.6" id="et-core-common-js"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//murah.hostingku.id/contents/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://murah.hostingku.id/</loc>
+		<lastmod>2020-06-20T23:22:00+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/cara-setting-dns-di-cpanel/</loc>
+		<lastmod>2019-11-08T08:18:39+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Setting-DNS-di-cPanel.png</image:loc>
+			<image:title><![CDATA[login ke cpanel]]></image:title>
+			<image:caption><![CDATA[login ke cpanel]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Setting-DNS-di-cPanel.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Setting-DNS-di-cPanel-1.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Setting-DNS-di-cPanel-2.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Setting-DNS-di-cPanel-3.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Setting-DNS-di-cPanel-4.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Setting-DNS-di-cPanel-5.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/apakah-backup-penting-atau-hanya-buang-buang-space-hosting/</loc>
+		<lastmod>2019-11-10T16:28:15+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/e8f6350f-offsite-backup-.jpg</image:loc>
+			<image:title><![CDATA[backup otomatis]]></image:title>
+			<image:caption><![CDATA[backup otomatis]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/backup-dados.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/mengaktifkan-tls-1-1-dan-1-2-di-outlook-windows-7/</loc>
+		<lastmod>2020-01-29T09:31:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/01/outlook_error_tls.jpg</image:loc>
+			<image:title><![CDATA[outlook_error_tls]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/setting-email-thunderbird/</loc>
+		<lastmod>2020-02-01T07:16:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/thunderbird-microsoft-store.png</image:loc>
+			<image:title><![CDATA[thunderbird-microsoft-store]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Setting-DNS-di-cPanel.png</image:loc>
+			<image:caption><![CDATA[login ke cpanel]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Setting-Email-Thunderbird-1.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Setting-Email-Thunderbird-3.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Setting-Email-Thunderbird-5.png</image:loc>
+			<image:caption><![CDATA[mail client setting manual]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/cara-upload-dan-install-laravel-ke-hosting-cpanel/</loc>
+		<lastmod>2020-03-27T09:49:02+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/upload-laravel-to-shared-hosting.jpg</image:loc>
+			<image:title><![CDATA[upload-laravel-to-shared-hosting]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/upload-laravel-shared-hosting-1-1024x393.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/backup-database.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/filemanager.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/menghitung-traffic-pada-hosting/</loc>
+		<lastmod>2020-03-27T10:14:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/01/Pasted-into-Menghitung-Traffic-Pada-Hosting-1.png</image:loc>
+			<image:title><![CDATA[Pasted into Menghitung Traffic Pada Hosting]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/01/Pasted-into-Menghitung-Traffic-Pada-Hosting-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/</loc>
+		<lastmod>2020-03-27T10:32:27+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/02/Setting-SMTP-Relay-Sendgrid.jpg</image:loc>
+			<image:title><![CDATA[Setting SMTP Relay Sendgrid]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/02/output.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/</loc>
+		<lastmod>2020-03-28T04:22:01+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/7.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/gdrive6.png</image:loc>
+			<image:caption><![CDATA[membuat kredensial baru untuk cpanel]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/gdrive7.jpg</image:loc>
+			<image:caption><![CDATA[menambahkan kredensial dari projek google]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/gdrive8.jpg</image:loc>
+			<image:caption><![CDATA[membuat kredensial untuk backup di cpanel]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/gdrive9.png</image:loc>
+			<image:caption><![CDATA[dowload kredensial google drive]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/gdrive11.png</image:loc>
+			<image:caption><![CDATA[tambahkan destinasi baru ke google drive]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/gdrive12.png</image:loc>
+			<image:caption><![CDATA[menambahkan google drive]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/cara-install-wordpress-dengan-lamp-stack/</loc>
+		<lastmod>2020-03-28T07:39:11+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/03/lamp-wordpress-installation.jpg</image:loc>
+			<image:title><![CDATA[lamp wordpress installation]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/03/Pasted.jpg</image:loc>
+			<image:title><![CDATA[SSL Lets Encrypt]]></image:title>
+			<image:caption><![CDATA[SSL Lets Encrypt]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/03/dbinfo-wordpress-installation.jpg</image:loc>
+			<image:caption><![CDATA[DB setting wordpress lamp stack]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/03/Pasted-into-Cara-Install-WordPress-dengan-LAMP-Stack.png</image:loc>
+			<image:caption><![CDATA[Homepage Wordpress]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/website-ngebut-pakai-litespeed-cache/</loc>
+		<lastmod>2020-03-28T07:41:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/How-To-Create-Cached-Websites-Using-LiteSpeed-Cache-Plugin-for-WordPress.jpg</image:loc>
+			<image:title><![CDATA[How-To-Create-Cached-Websites-Using-LiteSpeed-Cache-Plugin-for-WordPress]]></image:title>
+			<image:caption><![CDATA[How-To-Create-Cached-Websites-Using-LiteSpeed-Cache-Plugin-for-WordPress]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/membuat-database-mysql-di-cpanel/</loc>
+		<lastmod>2020-03-28T08:42:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Membuat-Database-di-cPanel.jpg</image:loc>
+			<image:title><![CDATA[Membuat Database di cPanel]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Membuat-Database-MySQL-di-cPanel-6.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Membuat-Database-MySQL-di-cPanel-7.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/cara-install-konfigurasi-wp-rocket/</loc>
+		<lastmod>2020-03-31T13:38:12+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/wp-rocket-review.png</image:loc>
+			<image:title><![CDATA[wp-rocket-review]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/cache-setting.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-3.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-4.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-5.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-9.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-10.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-11.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-12.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-13.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-14.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-1.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2019/11/Pasted-into-Cara-Install-Konfigurasi-WP-Rocket-2.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/apa-itu-google-my-business-dan-cara-daftarnya/</loc>
+		<lastmod>2020-06-19T00:07:35+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/05/Cara-Daftar-Google-Bisnis.jpg</image:loc>
+			<image:title><![CDATA[Cara Daftar Google Bisnis]]></image:title>
+			<image:caption><![CDATA[Cara Daftar Google Bisnis]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/05/Daftar-GMB-Step-1.jpg</image:loc>
+			<image:caption><![CDATA[Daftar GMB Step 1]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/06/GMB-step-3.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/06/step-5.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/perbedaan-vps-shared-hosting-dan-dedicated-server/</loc>
+		<lastmod>2020-06-20T23:17:12+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/03/shared-vps-dedicated-hosting.png</image:loc>
+			<image:title><![CDATA[shared vps dedicated hosting]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/03/dedicated-hosting.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/03/vps-hosting.png</image:loc>
+			<image:caption><![CDATA[vps hosting]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/03/shared-hosting.png</image:loc>
+			<image:caption><![CDATA[shared hosting]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://murah.hostingku.id/celah-keamana-plugin-themegrill-demo-importer/</loc>
+		<lastmod>2020-06-20T23:22:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://murah.hostingku.id/contents/img/2020/02/Theme-Grill-Critical-Bug.jpg</image:loc>
+			<image:title><![CDATA[Theme Grill Critical Bug]]></image:title>
+			<image:caption><![CDATA[Theme Grill Critical Bug]]></image:caption>
+		</image:image>
+	</url>
+</urlset>
+<!-- XML Sitemap generated by Yoast SEO -->

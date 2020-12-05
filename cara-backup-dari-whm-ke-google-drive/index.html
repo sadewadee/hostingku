@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+	
+	<script>var et_site_url='https://murah.hostingku.id';var et_post_id='954';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script>
+	
+	<title>Cara membuat backup data dari cPanel ke Google Drive - Hostingku</title>
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<link rel="canonical" href="https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Cara membuat backup data dari cPanel ke Google Drive - Hostingku">
+	<meta property="og:description" content="Mem-backup file di cloud, sampai saat ini merupakan cara yang efisien untuk memastikan ketersediaan. Alternatif solusi lain pencadangan cloud adalah dengan membuat banyak salinan file atau biasa disebut sebagai redudensi dan menyimpan data tersebut di lokasi yang berbeda. Dengan cara ini, kamu tidak perlu khawatir file akan hilang jika mengalami serangan hacker, bad sector pada [&hellip;]">
+	<meta property="og:url" content="https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/">
+	<meta property="og:site_name" content="Hostingku">
+	<meta property="article:published_time" content="2019-11-04T16:53:31+00:00">
+	<meta property="article:modified_time" content="2020-03-28T04:22:01+00:00">
+	<meta property="og:image" content="https://murah.hostingku.id/contents/img/2019/11/7.jpg">
+	<meta property="og:image:width" content="1024">
+	<meta property="og:image:height" content="682">
+	<meta name="twitter:card" content="summary_large_image">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://murah.hostingku.id/#organization","name":"Hostingku","url":"https://murah.hostingku.id/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://murah.hostingku.id/#logo","inLanguage":"en-US","url":"https://murah.hostingku.id/contents/uploads/2020/06/litespeed-logo-icon_outline.png","width":300,"height":300,"caption":"Hostingku"},"image":{"@id":"https://murah.hostingku.id/#logo"}},{"@type":"WebSite","@id":"https://murah.hostingku.id/#website","url":"https://murah.hostingku.id/","name":"Hostingku","description":"Premium Web Hosting Indonesia Murah","publisher":{"@id":"https://murah.hostingku.id/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://murah.hostingku.id/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/#primaryimage","inLanguage":"en-US","url":"https://murah.hostingku.id/contents/uploads/2019/11/7.jpg","width":1024,"height":682},{"@type":"WebPage","@id":"https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/#webpage","url":"https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/","name":"Cara membuat backup data dari cPanel ke Google Drive - Hostingku","isPartOf":{"@id":"https://murah.hostingku.id/#website"},"primaryImageOfPage":{"@id":"https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/#primaryimage"},"datePublished":"2019-11-04T16:53:31+00:00","dateModified":"2020-03-28T04:22:01+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/"]}]},{"@type":"Article","@id":"https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/#article","isPartOf":{"@id":"https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/#webpage"},"author":{"@id":"https://murah.hostingku.id/#/schema/person/25cefdb5fabe61abcc6af1fc281ebdac"},"headline":"Cara membuat backup data dari cPanel ke Google Drive","datePublished":"2019-11-04T16:53:31+00:00","dateModified":"2020-03-28T04:22:01+00:00","mainEntityOfPage":{"@id":"https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/#webpage"},"commentCount":0,"publisher":{"@id":"https://murah.hostingku.id/#organization"},"image":{"@id":"https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/#primaryimage"},"articleSection":"Hosting","inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/#respond"]}]},{"@type":"Person","@id":"https://murah.hostingku.id/#/schema/person/25cefdb5fabe61abcc6af1fc281ebdac","name":"Sadewa","sameAs":["sadewa dee"]}]}</script>
+	
+
+
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+
+<link rel="alternate" type="application/rss+xml" title="Hostingku &raquo; Feed" href="https://murah.hostingku.id/feed/">
+<link rel="alternate" type="application/rss+xml" title="Hostingku &raquo; Comments Feed" href="https://murah.hostingku.id/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Hostingku &raquo; Cara membuat backup data dari cPanel ke Google Drive Comments Feed" href="https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/feed/">
+<link rel="stylesheet" id="wp-block-library-css" href="https://murah.hostingku.id/inc/css/dist/block-library/style.min.css?ver=5.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="divi-style-css" href="https://murah.hostingku.id/contents/ui/core/style.css?ver=4.6.6" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://murah.hostingku.id/inc/css/dashicons.min.css?ver=5.5.3" type="text/css" media="all">
+<script type="text/javascript" src="https://murah.hostingku.id/inc/js/jquery/jquery.js?ver=1.12.4-wp" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/core/admin/js/es6-promise.auto.min.js?ver=5.5.3" id="es6-promise-js"></script>
+<script type="text/javascript" id="et-core-api-spam-recaptcha-js-extra">
+/* <![CDATA[ */
+var et_core_api_spam_recaptcha = {"site_key":"","page_action":{"action":"cara_backup_dari_whm_ke_google_drive"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/core/admin/js/recaptcha.js?ver=5.5.3" id="et-core-api-spam-recaptcha-js"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-144354676-5" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTNiMT', true);
+gtag('config', 'UA-144354676-5', {"anonymize_ip":true,"optimize_id":"GTM-KPMWBGF"} );
+</script>
+<link rel="alternate" type="application/json" href="https://murah.hostingku.id/wp-json/wp/v2/posts/954">
+
+
+<link rel="alternate" type="application/json+oembed" href="https://murah.hostingku.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmurah.hostingku.id%2Fcara-backup-dari-whm-ke-google-drive%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://murah.hostingku.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmurah.hostingku.id%2Fcara-backup-dari-whm-ke-google-drive%2F&amp;format=xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<script>
+( function( w, d, s, l, i ) {
+	w[l] = w[l] || [];
+	w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+	var f = d.getElementsByTagName( s )[0],
+		j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+	j.async = true;
+	j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+	f.parentNode.insertBefore( j, f );
+} )( window, document, 'script', 'dataLayer', 'GTM-5PZNKC3' );
+</script>
+
+		<link rel="icon" href="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-32x32.png" sizes="32x32">
+<link rel="icon" href="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-180x180.png">
+<meta name="msapplication-TileImage" content="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-270x270.png">
+<link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="https://murah.hostingku.id/contents/et-cache/global/et-divi-customizer-global-16065817597911.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)"><link rel="stylesheet" id="et-core-unified-tb-2171-tb-2199-954-cached-inline-styles" href="https://murah.hostingku.id/contents/et-cache/954/et-core-unified-tb-2171-tb-2199-954-16065963997956.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)"></head>
+<body data-rsssl="1" class="post-template-default single single-post postid-954 single-format-standard et-tb-has-template et-tb-has-body et-tb-has-footer et-tb-footer-disabled et_pb_button_helper_class et_transparent_nav et_fixed_nav et_show_nav et_hide_primary_logo et_hide_fixed_logo et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_cover_background et_pb_gutter et_pb_gutters3 et_divi_theme et-db et_minified_js et_minified_css">
+			
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PZNKC3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		
+		<div id="page-container">
+<div id="et-boc" class="et-boc">
+			
+		
+
+	<header id="main-header" data-height-onload="66">
+		<div class="container clearfix et_menu_container">
+					<div class="logo_container">
+				<span class="logo_helper"></span>
+				<a href="https://murah.hostingku.id/">
+					<img src="https://murah.hostingku.id/contents/img/2020/06/litespeed-logo-icon_outline.png" alt="Hostingku" id="logo" data-height-percentage="54">
+				</a>
+			</div>
+					<div id="et-top-navigation" data-height="66" data-fixed-height="105">
+									<nav id="top-menu-nav">
+					<ul id="top-menu" class="nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-973"><a href="https://murah.hostingku.id/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2170"><a href="#">WordPress</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2167"><a href="https://murah.hostingku.id/category/wordpress/plugin/">Plugins</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2168"><a href="https://murah.hostingku.id/category/wordpress/themes/">Themes</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-976"><a href="https://murah.hostingku.id/category/tie-tech/">Security</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-977"><a href="https://murah.hostingku.id/category/hosting/">Hosting</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2169"><a href="https://murah.hostingku.id/category/wordpress/tips-trik/">Tips &amp; Trik</a></li>
+</ul>					</nav>
+				
+				
+				
+				
+				<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>			</div> 
+		</div> 
+		<div class="et_search_outer">
+			<div class="container et_search_form_container">
+				<form role="search" method="get" class="et-search-form" action="https://murah.hostingku.id/">
+				<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:">				</form>
+				<span class="et_close_search_field"></span>
+			</div>
+		</div>
+	</header> 
+<div id="et-main-area">
+	
+    <div id="main-content">
+    <div class="et-l et-l--body">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0_tb_body et_animated et_pb_with_background et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0_tb_body">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_post_title et_pb_post_title_0_tb_body et_pb_bg_layout_light  et_pb_text_align_left">
+				
+				
+				<div class="et_pb_title_featured_container"><span class="et_pb_image_wrap"><img loading="lazy" width="1024" height="682" src="https://murah.hostingku.id/contents/img/2019/11/7.jpg" alt="" title="" srcset="https://murah.hostingku.id/contents/img/2019/11/7.jpg 1024w,https://murah.hostingku.id/contents/img/2019/11/7-300x200.jpg 300w,https://murah.hostingku.id/contents/img/2019/11/7-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" class="wp-image-907"></span></div>
+				<div class="et_pb_title_container">
+					
+				</div>
+				
+			</div>
+			</div> 
+				
+				
+			</div> 
+				
+				
+			</div> <div class="et_pb_section et_pb_section_1_tb_body et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_1_tb_body">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_post_title et_pb_post_title_1_tb_body et_pb_bg_layout_light  et_pb_text_align_left">
+				
+				
+				
+				<div class="et_pb_title_container">
+					<h1 class="entry-title">Cara membuat backup data dari cPanel ke Google Drive</h1>
+				</div>
+				
+			</div><div class="et_pb_module et_pb_post_content et_pb_post_content_0_tb_body">
+				
+				
+				<p>Mem-backup file di cloud, sampai saat ini merupakan cara yang efisien untuk memastikan ketersediaan. Alternatif solusi lain pencadangan cloud adalah dengan membuat banyak salinan file atau biasa disebut sebagai redudensi dan menyimpan data tersebut di lokasi yang berbeda. Dengan cara ini, kamu tidak perlu khawatir file akan hilang jika mengalami serangan hacker, bad sector pada hard disk atau mengalami bencana alam. Dengan tutorial ini kamu bisa mempelajari cara untuk membuat cloud backup menggunakan google drive di whm.</p>
+<h2 id="add-new-project">Membuat Project baru dan API Google Drive</h2>
+<p>Untuk menggunakan fungsi cloud backup pada Google Drive kamu memerlukan sebuah project dan API Credentials. Semua ini dapat dilakukan dengan sangat mudah melalui <a href="https://console.developers.google.com/" target="_blank" rel="noopener noreferrer">Google Developers Console</a> yang dapat kamu buka melalui akun googlemu. Untuk membuat proyek baru, klik tombol&nbsp;<strong>Proyek Saya / Pilih Proyek</strong>&nbsp;di bagian atas halaman.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-1020" src="https://blog.sadewa.my.id/contents/uploads/2019/11/gdrive1-1.png" alt="" width="650" height="357" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive1-1.png 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive1-1-300x165.png 300w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Namun Jika ini adalah pertama kalinya membuka konsol, kamu tidak akan memiliki proyek aktif, jadi mari kita buat satu. Klik pada&nbsp;tombol&nbsp;<strong>Proyek Baru</strong>&nbsp;.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-1021" src="https://blog.sadewa.my.id/contents/uploads/2019/11/gdrive2.png" alt="" width="650" height="421" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive2.png 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive2-300x194.png 300w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Beri nama proyek lalu klik tombol&nbsp;<strong>Buat</strong></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-1024" src="https://blog.sadewa.my.id/contents/uploads/2019/11/gdrive3.png" alt="" width="650" height="431" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive3.png 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive3-300x199.png 300w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Sekarang mari kita aktifkan Google Drive API, jadi klik salah satu ikonnya jika ada atau tekan tombol <strong>Enable APIS and&nbsp; Services</strong>&nbsp;.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-1025" src="https://blog.sadewa.my.id/contents/uploads/2019/11/gdrive4.png" alt="" width="650" height="393" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive4.png 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive4-300x181.png 300w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Pilih&nbsp;opsi <b>Enable </b>untuk melanjutkan.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-1026" src="https://blog.sadewa.my.id/contents/uploads/2019/11/gdrive5.png" alt="" width="650" height="377" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive5.png 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive5-300x174.png 300w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Karena nanti kita akan membutuhkan 2 kunci yang berbeda yang akan bertindak sebagai kunci publik dan pribadi kita, maka kita akan menambahkan kredensial untuk API, jadi klik tombol <strong>Create Credentials</strong>.</p>
+<p><img loading="lazy" class="alignnone wp-image-1027 size-full" src="https://murah.hostingku.id/contents/img/2019/11/gdrive6.png" alt="membuat kredensial baru untuk cpanel" width="650" height="232" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive6.png 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive6-300x107.png 300w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Di sini kamu akan melihat banyak opsi untuk setiap bagian. Yang kamu butuhkan adalah sebagai berikut:</p>
+<ul>
+<li>API mana yang akan kita gunakan?<br>
+<strong>API Google Drive</strong></li>
+<li>Dari mana kita akan memanggil API?<br>
+<strong>Server web (mis. Node.js, Tomcat)</strong></li>
+<li>Data apa yang akan kita akses?<br>
+<strong>Data pengguna</strong></li>
+</ul>
+<p>Setelah selesai, klik opsi &rdquo;&nbsp;<strong>What Credentials do I need?</strong>&nbsp;&rdquo; Untuk melanjutkan</p>
+<p><img loading="lazy" class="alignnone wp-image-1030 size-full" src="https://murah.hostingku.id/contents/img/2019/11/gdrive7.jpg" alt="menambahkan kredensial dari projek google" width="650" height="422" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive7.jpg 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive7-300x195.jpg 300w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Sebagai bagian dari tahap 2 pengaturan ini, kita akan diminta untuk membuat <strong>OAuth 2.0 Client ID</strong>.</p>
+<p>Tambahkan nama yang mudah diingat dan deskriptif tentang penggunaan kredensial dan di URL pengalihan tambahkan <strong>hxxps: // hostname: 2087 / googledriveauth / callback </strong>dimana hostname akan diganti dengan hostname server. Perhatikan bahwa menggunakan IP server tidak diperbolehkan.</p>
+<p><img loading="lazy" class="alignnone wp-image-1031 size-full" src="https://murah.hostingku.id/contents/img/2019/11/gdrive8.jpg" alt="membuat kredensial untuk backup di cpanel" width="650" height="443" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive8.jpg 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive8-300x204.jpg 300w,https://murah.hostingku.id/contents/img/2019/11/gdrive8-220x150.jpg 220w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Klik pada&nbsp;<strong>Create OAuth Client ID,</strong> dan setelah itu, kita telah menyelesaikan bagian ke 3 dari pengaturan. Pada bagian 4 akan mendapatkan <strong>Client ID </strong>dan sisa kredensial untuk API. Pastikan untuk mengunduh file <code>.JSON</code>karena akan diperlukannya untuk &rdquo; <b>Private Key</b>&rdquo; atau <code>client_secret</code>.&nbsp;Klik&nbsp;<strong>Selesai</strong>&nbsp;untuk menyelesaikan pengaturan.</p>
+<p><img loading="lazy" class="alignnone wp-image-1032 size-full" src="https://murah.hostingku.id/contents/img/2019/11/gdrive9.png" alt="dowload kredensial google drive" width="650" height="344" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive9.png 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive9-300x159.png 300w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Buka file yang sudah di download dengan editor teks dan copy <code>client _secret</code>. Kita akan memerlukan ini untuk konfigurasi Google Drive di bagian kedua tutorial ini.</p>
+<h2 id="add-destination">Tambahkan Google Drive sebagai <em>Additional Destination</em></h2>
+<p>Sekarang kita akan melakukan pengaturan agar setiap backup yang dibuat oleh server dapat ditransfer ke Google Drive . Pertama kita ke <strong>WHM &rarr; Backup &rarr; Backup Configuration</strong>&nbsp;dan beralih ke&nbsp;tab <strong>Additional Destinations</strong>.&nbsp;Kemudian pilih&nbsp;<strong>Google Drive</strong> sebagai Destination Type.</p>
+<p><img loading="lazy" class="alignnone wp-image-1035 size-full" src="https://murah.hostingku.id/contents/img/2019/11/gdrive11.png" alt="tambahkan destinasi baru ke google drive" width="650" height="217" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive11.png 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive11-300x100.png 300w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Pada bagian <strong>Folder</strong> isi sesuai dimana kita menyimpan file backup yang dibuat oleh WHM biasanya file tersebut di tempatkan pada /<strong>backup</strong>. pada bagian <b>Client ID </b>diisi dengan&nbsp;<strong>Client ID</strong> yang kita dapatkan diatas. Hal yang sama berlaku untuk <strong>Secred Clinet</strong> yang bisad dodapatkan di file <code>.JSON</code>.</p>
+<p>Setelah kita menyalin kedua kredensial API di bidang yang benar, klik tombol <strong>Generate Credentials</strong>. Ini agak seperti kebalikan dari apa yang baru saja kami lakukan di konsol Google Developers, dan sekarang Anda akan diminta untuk <strong>Authorize Access</strong></p>
+<div style="clear:both; margin-top:0em; margin-bottom:1em;"><a href="https://murah.hostingku.id/perbedaan-vps-shared-hosting-dan-dedicated-server/" target="_blank" class="uff7122bd8ea4988f468d770625b9bcf5"><style> .uff7122bd8ea4988f468d770625b9bcf5 { padding:0px; margin: 0; padding-top:1em!important; padding-bottom:1em!important; width:100%; display: block; font-weight:bold; background-color:#eaeaea; border:0!important; border-left:4px solid #34495E!important; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); text-decoration:none; } .uff7122bd8ea4988f468d770625b9bcf5:active, .uff7122bd8ea4988f468d770625b9bcf5:hover { opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; text-decoration:none; } .uff7122bd8ea4988f468d770625b9bcf5 { transition: background-color 250ms; webkit-transition: background-color 250ms; opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; } .uff7122bd8ea4988f468d770625b9bcf5 .ctaText { font-weight:bold; color:inherit; text-decoration:none; font-size: 16px; } .uff7122bd8ea4988f468d770625b9bcf5 .postTitle { color:#000000; text-decoration: underline!important; font-size: 16px; } .uff7122bd8ea4988f468d770625b9bcf5:hover .postTitle { text-decoration: underline!important; } </style><div style="padding-left:1em; padding-right:1em;"><span class="ctaText">Lanjutkan Membaca</span>&nbsp; <span class="postTitle">Perbedaan VPS, Shared Hosting dan Dedicated server</span></div></a></div><p><img loading="lazy" class="alignnone wp-image-1036 size-full" src="https://murah.hostingku.id/contents/img/2019/11/gdrive12.png" alt="menambahkan google drive" width="650" height="498" srcset="https://murah.hostingku.id/contents/img/2019/11/gdrive12.png 650w,https://murah.hostingku.id/contents/img/2019/11/gdrive12-300x230.png 300w" sizes="(max-width: 650px) 100vw, 650px"></p>
+<p>Saya sarankan untuk membiarkan settingan pada kolom <strong>Timeout</strong> secara default selanjutnya klik tombol <strong>Save and Validate Destination</strong>.&nbsp;Jika hanya mengklik <strong>Save Destination</strong> , validasi dapat dilakukan kapan saja, tetapi validasi diperlukan agar file backup benar-benar sampai ke Google Drive.</p>
+<p>Dengan ini, kita sudah menyelesaikan tutorial untuk melakukan backup dari WHM ke Google Drive, dengan menambahkan Google Drive sebagai cloud backup ke server kita maka akan meningkatkan juga level keamanan.</p>
+
+			</div> 
+			</div> 
+				
+				
+			</div> 
+				
+				
+			</div> <div class="et_pb_section et_pb_section_2_tb_body et_animated et_pb_with_background et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_2_tb_body">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_body  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h3>Get In Touch</h3></div>
+			</div> <div class="et_pb_module et_pb_comments_0_tb_body et_pb_comments_module et_pb_bg_layout_light">
+				
+				
+				
+
+<section id="comment-wrap">
+	<h1 id="comments" class="page_title">0 Comments</h1>
+		   <div id="comment-section" class="nocomments">
+		  			 
+
+		  	   </div>
+					<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"><span>Submit a Comment</span> <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://murah.hostingku.id/cara-backup-dari-whm-ke-google-drive/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://murah.hostingku.id/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><button name="submit" type="submit" id="et_pb_submit" class="submit">Submit Comment</button> <input type="hidden" name="comment_post_ID" value="954" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p></form>	</div>
+		</section>
+
+			</div>
+			</div> 
+				
+				
+			</div> 
+				
+				
+			</div> 		</div>
+	</div>
+	    </div>
+    
+	    </div> 
+
+			
+		</div>
+		</div> 
+
+				<script type="text/javascript">
+				var et_animation_data = [{"class":"et_pb_section_0_tb_body","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"2%","starting_opacity":"100%","speed_curve":"ease-in-out"},{"class":"et_pb_section_2_tb_body","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"5%","starting_opacity":"100%","speed_curve":"ease-in-out"}];
+				</script>
+	<script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
+var et_pb_custom = {"ajaxurl":"https:\/\/murah.hostingku.id\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/murah.hostingku.id\/contents\/ui\/core\/images","builder_images_uri":"https:\/\/murah.hostingku.id\/contents\/ui\/core\/includes\/builder\/images","et_frontend_nonce":"acbe0896a2","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"2de6d97a52","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"954","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_box_shadow_elements = [];
+var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
+var et_pb_sticky_elements = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/js/custom.unified.js?ver=4.6.6" id="divi-custom-script-js"></script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/core/admin/js/common.js?ver=4.6.6" id="et-core-common-js"></script>
+		
+	</body>
+</html>

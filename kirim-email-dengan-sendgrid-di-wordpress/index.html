@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+	
+	<script>var et_site_url='https://murah.hostingku.id';var et_post_id='1212';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script>
+	
+	<title>Kirim Email dengan Sendgrid di WordPress - Hostingku</title>
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<link rel="canonical" href="https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Kirim Email dengan Sendgrid di WordPress - Hostingku">
+	<meta property="og:description" content="Pernah mengalami masalah saat mengirim email namun tidak sampai tujuan?, seperti email reset password, aktivasi akun, informasi pembayaran, atau email penting lainnya, berikut adalah penjelasan mengapa hal itu bisa terjadi. Kebanyakan penyedia jasa hosting menonaktifkan PHPMail dengan alasan menghindari SPAM, untuk kenyamanan bersama dan reputasi IP server maka solusi itu yang digunakan. Namun jangan khawatir [&hellip;]">
+	<meta property="og:url" content="https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/">
+	<meta property="og:site_name" content="Hostingku">
+	<meta property="article:published_time" content="2020-02-20T07:43:35+00:00">
+	<meta property="article:modified_time" content="2020-03-27T10:32:27+00:00">
+	<meta property="og:image" content="https://murah.hostingku.id/contents/img/2020/02/Setting-SMTP-Relay-Sendgrid.jpg">
+	<meta property="og:image:width" content="740">
+	<meta property="og:image:height" content="366">
+	<meta name="twitter:card" content="summary_large_image">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://murah.hostingku.id/#organization","name":"Hostingku","url":"https://murah.hostingku.id/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://murah.hostingku.id/#logo","inLanguage":"en-US","url":"https://murah.hostingku.id/contents/uploads/2020/06/litespeed-logo-icon_outline.png","width":300,"height":300,"caption":"Hostingku"},"image":{"@id":"https://murah.hostingku.id/#logo"}},{"@type":"WebSite","@id":"https://murah.hostingku.id/#website","url":"https://murah.hostingku.id/","name":"Hostingku","description":"Premium Web Hosting Indonesia Murah","publisher":{"@id":"https://murah.hostingku.id/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://murah.hostingku.id/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/#primaryimage","inLanguage":"en-US","url":"https://murah.hostingku.id/contents/uploads/2020/02/Setting-SMTP-Relay-Sendgrid.jpg","width":740,"height":366},{"@type":"WebPage","@id":"https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/#webpage","url":"https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/","name":"Kirim Email dengan Sendgrid di WordPress - Hostingku","isPartOf":{"@id":"https://murah.hostingku.id/#website"},"primaryImageOfPage":{"@id":"https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/#primaryimage"},"datePublished":"2020-02-20T07:43:35+00:00","dateModified":"2020-03-27T10:32:27+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/"]}]},{"@type":"Article","@id":"https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/#article","isPartOf":{"@id":"https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/#webpage"},"author":{"@id":"https://murah.hostingku.id/#/schema/person/25cefdb5fabe61abcc6af1fc281ebdac"},"headline":"Kirim Email dengan Sendgrid di WordPress","datePublished":"2020-02-20T07:43:35+00:00","dateModified":"2020-03-27T10:32:27+00:00","mainEntityOfPage":{"@id":"https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/#webpage"},"commentCount":0,"publisher":{"@id":"https://murah.hostingku.id/#organization"},"image":{"@id":"https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/#primaryimage"},"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/#respond"]}]},{"@type":"Person","@id":"https://murah.hostingku.id/#/schema/person/25cefdb5fabe61abcc6af1fc281ebdac","name":"Sadewa","sameAs":["sadewa dee"]}]}</script>
+	
+
+
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+
+<link rel="alternate" type="application/rss+xml" title="Hostingku &raquo; Feed" href="https://murah.hostingku.id/feed/">
+<link rel="alternate" type="application/rss+xml" title="Hostingku &raquo; Comments Feed" href="https://murah.hostingku.id/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Hostingku &raquo; Kirim Email dengan Sendgrid di WordPress Comments Feed" href="https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/feed/">
+<link rel="stylesheet" id="wp-block-library-css" href="https://murah.hostingku.id/inc/css/dist/block-library/style.min.css?ver=5.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="divi-style-css" href="https://murah.hostingku.id/contents/ui/core/style.css?ver=4.6.6" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://murah.hostingku.id/inc/css/dashicons.min.css?ver=5.5.3" type="text/css" media="all">
+<script type="text/javascript" src="https://murah.hostingku.id/inc/js/jquery/jquery.js?ver=1.12.4-wp" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/core/admin/js/es6-promise.auto.min.js?ver=5.5.3" id="es6-promise-js"></script>
+<script type="text/javascript" id="et-core-api-spam-recaptcha-js-extra">
+/* <![CDATA[ */
+var et_core_api_spam_recaptcha = {"site_key":"","page_action":{"action":"kirim_email_dengan_sendgrid_di_wordpress"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/core/admin/js/recaptcha.js?ver=5.5.3" id="et-core-api-spam-recaptcha-js"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-144354676-5" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTNiMT', true);
+gtag('config', 'UA-144354676-5', {"anonymize_ip":true,"optimize_id":"GTM-KPMWBGF"} );
+</script>
+<link rel="alternate" type="application/json" href="https://murah.hostingku.id/wp-json/wp/v2/posts/1212">
+
+
+<link rel="alternate" type="application/json+oembed" href="https://murah.hostingku.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmurah.hostingku.id%2Fkirim-email-dengan-sendgrid-di-wordpress%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://murah.hostingku.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmurah.hostingku.id%2Fkirim-email-dengan-sendgrid-di-wordpress%2F&amp;format=xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<script>
+( function( w, d, s, l, i ) {
+	w[l] = w[l] || [];
+	w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+	var f = d.getElementsByTagName( s )[0],
+		j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+	j.async = true;
+	j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+	f.parentNode.insertBefore( j, f );
+} )( window, document, 'script', 'dataLayer', 'GTM-5PZNKC3' );
+</script>
+
+		<link rel="icon" href="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-32x32.png" sizes="32x32">
+<link rel="icon" href="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-180x180.png">
+<meta name="msapplication-TileImage" content="https://murah.hostingku.id/contents/img/2019/11/cropped-phpmyadmin-logo-270x270.png">
+<link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="https://murah.hostingku.id/contents/et-cache/global/et-divi-customizer-global-16065817597911.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)"><link rel="stylesheet" id="et-core-unified-tb-2171-tb-2199-1212-cached-inline-styles" href="https://murah.hostingku.id/contents/et-cache/1212/et-core-unified-tb-2171-tb-2199-1212-16067222446319.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)"></head>
+<body data-rsssl="1" class="post-template-default single single-post postid-1212 single-format-standard et-tb-has-template et-tb-has-body et-tb-has-footer et-tb-footer-disabled et_pb_button_helper_class et_transparent_nav et_fixed_nav et_show_nav et_hide_primary_logo et_hide_fixed_logo et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_cover_background et_pb_gutter et_pb_gutters3 et_divi_theme et-db et_minified_js et_minified_css">
+			
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PZNKC3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		
+		<div id="page-container">
+<div id="et-boc" class="et-boc">
+			
+		
+
+	<header id="main-header" data-height-onload="66">
+		<div class="container clearfix et_menu_container">
+					<div class="logo_container">
+				<span class="logo_helper"></span>
+				<a href="https://murah.hostingku.id/">
+					<img src="https://murah.hostingku.id/contents/img/2020/06/litespeed-logo-icon_outline.png" alt="Hostingku" id="logo" data-height-percentage="54">
+				</a>
+			</div>
+					<div id="et-top-navigation" data-height="66" data-fixed-height="105">
+									<nav id="top-menu-nav">
+					<ul id="top-menu" class="nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-973"><a href="https://murah.hostingku.id/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2170"><a href="#">WordPress</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2167"><a href="https://murah.hostingku.id/category/wordpress/plugin/">Plugins</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2168"><a href="https://murah.hostingku.id/category/wordpress/themes/">Themes</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-976"><a href="https://murah.hostingku.id/category/tie-tech/">Security</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-977"><a href="https://murah.hostingku.id/category/hosting/">Hosting</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2169"><a href="https://murah.hostingku.id/category/wordpress/tips-trik/">Tips &amp; Trik</a></li>
+</ul>					</nav>
+				
+				
+				
+				
+				<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>			</div> 
+		</div> 
+		<div class="et_search_outer">
+			<div class="container et_search_form_container">
+				<form role="search" method="get" class="et-search-form" action="https://murah.hostingku.id/">
+				<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:">				</form>
+				<span class="et_close_search_field"></span>
+			</div>
+		</div>
+	</header> 
+<div id="et-main-area">
+	
+    <div id="main-content">
+    <div class="et-l et-l--body">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0_tb_body et_animated et_pb_with_background et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0_tb_body">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_post_title et_pb_post_title_0_tb_body et_pb_bg_layout_light  et_pb_text_align_left">
+				
+				
+				<div class="et_pb_title_featured_container"><span class="et_pb_image_wrap"><img loading="lazy" width="740" height="366" src="https://murah.hostingku.id/contents/img/2020/02/Setting-SMTP-Relay-Sendgrid.jpg" alt="" title="Setting SMTP Relay Sendgrid" srcset="https://murah.hostingku.id/contents/img/2020/02/Setting-SMTP-Relay-Sendgrid.jpg 740w,https://murah.hostingku.id/contents/img/2020/02/Setting-SMTP-Relay-Sendgrid-300x148.jpg 300w" sizes="(max-width: 740px) 100vw, 740px" class="wp-image-1213"></span></div>
+				<div class="et_pb_title_container">
+					
+				</div>
+				
+			</div>
+			</div> 
+				
+				
+			</div> 
+				
+				
+			</div> <div class="et_pb_section et_pb_section_1_tb_body et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_1_tb_body">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_post_title et_pb_post_title_1_tb_body et_pb_bg_layout_light  et_pb_text_align_left">
+				
+				
+				
+				<div class="et_pb_title_container">
+					<h1 class="entry-title">Kirim Email dengan Sendgrid di WordPress</h1>
+				</div>
+				
+			</div><div class="et_pb_module et_pb_post_content et_pb_post_content_0_tb_body">
+				
+				
+				<p>Pernah mengalami masalah saat mengirim email namun tidak sampai tujuan?, seperti email reset password, aktivasi akun, informasi pembayaran, atau email penting lainnya, berikut adalah penjelasan mengapa hal itu bisa terjadi.</p>
+<p>Kebanyakan penyedia jasa hosting menonaktifkan PHPMail dengan alasan menghindari SPAM, untuk kenyamanan bersama dan reputasi IP server maka solusi itu yang digunakan. Namun jangan khawatir untuk masalah tersebut, kita masih bisa mengirim email menggunakan SMTP dan tentunya lebih aman karena sudah pasti akan masuk ke inbox email tanpa harus diblokir oleh anti spam. Disini kita akan menggunakan Sendgrid sebagai SMTP sender.</p>
+<p>Pada plan gratis kita diberikan 40.000 email untuk satu bulan pertama dan 100 email perhari untuk bulan berikut, lebih dari cukup untuk sebuah bisnis kecil atau UKM. Jika volume pengiriman email cukup banyak, anda bisa membeli plan premium mereka.</p>
+<h2>Daftar Akun Sendgrid</h2>
+<p>Agar bisa menggunakan layanan Sengrid kita diwajibkan untuk mendaftar terlebih dahulu dan mendapatkan sebuah API Key. Jika belum punya akunnya anda bisa mendaftar di <a href="https://sendgrid.com/free/">https://sendgrid.com/free/</a>. sebagai contoh, saya akan mendaftar menggunakan plan gratis.</p>
+<p><img src="https://cdn.wpmailsmtp.com/contents/uploads/2019/06/Sign-up-for-a-free-SendGrid-account.png" alt="Mendaftar untuk akun SendGrid gratis"></p>
+<p>selanjutnya anda akan dibawa kehalaman dan diminta untuk mengisi formulir pendaftaran dan akun.</p>
+<p><img src="https://cdn.wpmailsmtp.com/contents/uploads/2019/06/Create-a-new-SendGrid-account.png" alt="Buat akun SendGrid baru"></p>
+<p>Setelah Anda membuat akun, klik&nbsp;tombol&nbsp;<strong>Start </strong>sebelah <strong>Integrate using our Web API or SMTP relay.</strong></p>
+<p>.<img loading="lazy" class="alignnone size-full wp-image-1214" src="https://murah.hostingku.id/contents/img/2020/02/output.jpg" alt="" width="562" height="352" srcset="https://murah.hostingku.id/contents/img/2020/02/output.jpg 562w,https://murah.hostingku.id/contents/img/2020/02/output-300x188.jpg 300w" sizes="(max-width: 562px) 100vw, 562px"></p>
+<p>selanjutnya anda akan diminta untuk memilih metode pengatura, silahkan klik tombol <strong>choose</strong> pada kolom <strong>SMTP Relay.</strong></p>
+<p><img src="https://cdn.wpmailsmtp.com/contents/uploads/2019/06/Choose-SMTP-relay-for-SendGrid-setup.png" alt="Pilih relai SMTP untuk pengaturan SendGrid"></p>
+<p>selanjutnya, masukan nama API Key anda lalu klik tombol <strong>Create Key.</strong></p>
+<p><img src="https://cdn.wpmailsmtp.com/contents/uploads/2019/06/Create-a-SendGrid-API-key.png" alt="Buat kunci API SendGrid"></p>
+<p>Dan, kata kunci anda akan muncul dibawahnya, pastikan anda membuat salinannya di notepad karena anda pasti akan memerlukannya nanti.</p>
+<p><img src="https://cdn.wpmailsmtp.com/contents/uploads/2019/06/Copy-the-SendGrid-API-key.png" alt="Salin kunci API SendGrid"></p>
+<h2>Konfigurasi <strong>Sendgrid </strong>dengan&nbsp;<strong>WP Mail SMTP by WPForms.</strong></h2>
+<p>Sekarang setelah akun SendGrid sudah disiapkan, saatnya kita melakukan konfigurasi pada website. sebelum melakukan bagian ini, pastikan anda sudah menginstall plugin <strong>WP Mail SMTP by WPForms.</strong></p>
+<p>Setelah WP Mail SMTP diinstal, masuk kedalam pengaturan <strong>WP Mail SMTP by WPForms.&nbsp;</strong>mari kita bahas satu persatu pengaturan yang ada pada halaman ini.</p>
+<h3>Mail.</h3>
+<p>kolom ini berisi alamat email yang akan mengirimkan semua email yang ada di website. anda bisa mengisi dengan info@namadomainsaya.com</p>
+<p><img src="https://cdn.wpmailsmtp.com/contents/uploads/2019/06/Adjust-From-Email-in-WP-Mail-SMTP-settings.jpg" alt="Sesuaikan Dari Email dalam pengaturan SMTP WP Mail"></p>
+<h3>From Name</h3>
+<p>From name secara default akan menggunakan nama website anda, ada baiknya mengubahnya sehingga terlihat lebih profesional.</p>
+<p><img src="https://cdn.wpmailsmtp.com/contents/uploads/2019/06/Adjust-From-Name-in-WP-Mail-SMTP-settings.jpg" alt="Sesuaikan Dari Nama dalam pengaturan SMTP WP Mail"></p>
+<h3>Mailer</h3>
+<p>pilih sendgrid sebagai pemroses email anda, anda bisa menggunakan opsi yang lain. namun pada tutorial ini kita akan menggunakan sendgrid.</p>
+<p><img src="https://cdn.wpmailsmtp.com/contents/uploads/2019/06/Select-SendGrid-mailer-in-WP-Mail-SMTP.jpg" alt="Pilih pengirim SendGrid di WP Mail SMTP"></p>
+<p>langkah terakhir adalah melakukan konfigurasi agar sendgrid dan website kita bisa saling berkomunikasi, sekarang kebagian <strong>Sendgrid&nbsp;</strong>dan masukan <strong>API Key </strong>yang sebelumnya sudah disalin ke notepad.</p>
+<p><img src="https://cdn.wpmailsmtp.com/contents/uploads/2019/06/Paste-in-SendGrid-API-key-and-save-settings.png" alt="Tempel di kunci API SendGrid dan simpan pengaturan"></p>
+<p>Selesai!,selanjutnya anda bisa menyimpan pengaturan yang sudah dibuat dan melakukan test email untuk memastikan bawah settingan anda sudah benar.</p>
+<div style="clear:both; margin-top:0em; margin-bottom:1em;"><a href="https://murah.hostingku.id/setting-email-thunderbird/" target="_blank" class="u9a405bb56703406a10dcc69b92777897"><style> .u9a405bb56703406a10dcc69b92777897 { padding:0px; margin: 0; padding-top:1em!important; padding-bottom:1em!important; width:100%; display: block; font-weight:bold; background-color:#eaeaea; border:0!important; border-left:4px solid #34495E!important; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17); text-decoration:none; } .u9a405bb56703406a10dcc69b92777897:active, .u9a405bb56703406a10dcc69b92777897:hover { opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; text-decoration:none; } .u9a405bb56703406a10dcc69b92777897 { transition: background-color 250ms; webkit-transition: background-color 250ms; opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; } .u9a405bb56703406a10dcc69b92777897 .ctaText { font-weight:bold; color:inherit; text-decoration:none; font-size: 16px; } .u9a405bb56703406a10dcc69b92777897 .postTitle { color:#000000; text-decoration: underline!important; font-size: 16px; } .u9a405bb56703406a10dcc69b92777897:hover .postTitle { text-decoration: underline!important; } </style><div style="padding-left:1em; padding-right:1em;"><span class="ctaText">Lanjutkan Membaca</span>&nbsp; <span class="postTitle">Setting Email Thunderbird</span></div></a></div>
+			</div> 
+			</div> 
+				
+				
+			</div> 
+				
+				
+			</div> <div class="et_pb_section et_pb_section_2_tb_body et_animated et_pb_with_background et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_2_tb_body">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_body  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h3>Get In Touch</h3></div>
+			</div> <div class="et_pb_module et_pb_comments_0_tb_body et_pb_comments_module et_pb_bg_layout_light">
+				
+				
+				
+
+<section id="comment-wrap">
+	<h1 id="comments" class="page_title">0 Comments</h1>
+		   <div id="comment-section" class="nocomments">
+		  			 
+
+		  	   </div>
+					<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"><span>Submit a Comment</span> <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://murah.hostingku.id/kirim-email-dengan-sendgrid-di-wordpress/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://murah.hostingku.id/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><button name="submit" type="submit" id="et_pb_submit" class="submit">Submit Comment</button> <input type="hidden" name="comment_post_ID" value="1212" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p></form>	</div>
+		</section>
+
+			</div>
+			</div> 
+				
+				
+			</div> 
+				
+				
+			</div> 		</div>
+	</div>
+	    </div>
+    
+	    </div> 
+
+			
+		</div>
+		</div> 
+
+				<script type="text/javascript">
+				var et_animation_data = [{"class":"et_pb_section_0_tb_body","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"2%","starting_opacity":"100%","speed_curve":"ease-in-out"},{"class":"et_pb_section_2_tb_body","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"5%","starting_opacity":"100%","speed_curve":"ease-in-out"}];
+				</script>
+	<script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
+var et_pb_custom = {"ajaxurl":"https:\/\/murah.hostingku.id\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/murah.hostingku.id\/contents\/ui\/core\/images","builder_images_uri":"https:\/\/murah.hostingku.id\/contents\/ui\/core\/includes\/builder\/images","et_frontend_nonce":"acbe0896a2","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"2de6d97a52","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"1212","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_box_shadow_elements = [];
+var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
+var et_pb_sticky_elements = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/js/custom.unified.js?ver=4.6.6" id="divi-custom-script-js"></script>
+<script type="text/javascript" src="https://murah.hostingku.id/contents/ui/core/core/admin/js/common.js?ver=4.6.6" id="et-core-common-js"></script>
+		
+	</body>
+</html>
